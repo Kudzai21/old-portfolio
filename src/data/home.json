@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "profileImage": "../../assets/Kudzai.jpg",
+    "profileAlt": "Portrait of a person",
+    "name": "Kudzai Mapuranga",
+    "description": "A designer who codes. I craft user-friendly designs and responsive front-end solutions, blending creativity with functionality.",
+    "skills": [
+      { "name": "Figma", "color": "#FF6F61" },
+      { "name": "JavaScript", "color": "#E5C817" },
+      { "name": "HTML", "color": "#E44D26" },
+      { "name": "CSS", "color": "#1572B6" },
+      { "name": "React", "color": "#61DAFB" },
+      { "name": "Framer", "color": "#000000" },
+      { "name": "Tailwind CSS", "color": "#06B6D4" },
+      { "name": "Miro", "color": "#FFC500" },
+      { "name": "Storybook", "color": "#FF4785" },
+      { "name": "Lottie", "color": "#00DDB3" },
+      { "name": "Motion", "color": "#0055FF" }
+    ],
+    "ctaMessage": "Pssst scroll down to see my work"
+  },
+  "carouselImages": [
+    { "src": "Carousel1.jpg", "alt": "Placeholder image 1" },
+    { "src": "Carousel2.jpg", "alt": "Placeholder image 2" },
+    { "src": "Carousel3.jpg", "alt": "Placeholder image 3" },
+    { "src": "Carousel7.jpg", "alt": "Placeholder image 7" },
+    { "src": "Carousel5.jpg", "alt": "Placeholder image 5" },
+    { "src": "Carousel4.jpg", "alt": "Placeholder image 4" },
+    { "src": "Carousel6.jpg", "alt": "Placeholder image 6" }
+
+  ],
+  "caseStudiesData": {
+    "design": [
+      {
+        "id": 1,
+        "imageSrc": "Tile1.jpg",
+        "title": "Africa Sight",
+        "description": [
+          { "icon": "iconWebsite", "text": "Website" },
+          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconDashboard", "text": "Dashboard" }
+        ],
+        "buttonText": "View More"
+      },
+      {
+        "id": 2,
+        "imageSrc": "Tile2.jpg",
+        "title": "Tango Africa",
+        "description": [
+          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconMobileApp", "text": "Mobile App" }
+        ],
+        "buttonText": "View More"
+      },
+      {
+        "id": 3,
+        "imageSrc": "Tile3.jpg",
+        "title": "Driveable",
+        "description": [
+          { "icon": "iconMobileApp", "text": "Mobile App" }
+        ],
+        "buttonText": "View More"
+      }
+    ],
+    "code": [
+      {
+        "id": 4,
+        "imageSrc": "Tile4.jpg",
+        "title": "Penguin Lake",
+        "description": [
+          { "icon": "iconWebsite", "text": "Website" },
+          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconMobileApp", "text": "Mobile App" }
+        ],
+        "buttonText": "Preview",
+        "githubLink": "https://github.com/project-a"
+      },
+      {
+        "id": 5,
+        "imageSrc": "Tile5.jpg",
+        "title": "Breezle",
+        "description": [
+          { "icon": "iconWebsite", "text": "Website" },
+          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconMobileApp", "text": "Mobile App" }
+        ],
+        "buttonText": "Preview",
+        "githubLink": "https://github.com/project-b"
+      },
+      {
+        "id": 6,
+        "imageSrc": "Tile5.jpg",
+        "title": "Crypto Gene",
+        "description": [
+          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconMobileApp", "text": "Mobile App" },
+          { "icon": "iconDashboard", "text": "Dashboard" }
+        ],
+        "buttonText": "Preview",
+        "githubLink": "https://github.com/project-c"
+      }
+    ]
+  },
+  "subtitle": "About Me",
+  "sections": [
+    {
+      "icon": "LuPenTool",
+      "title": "Design",
+      "description": "I design intuitive, user-friendly interfaces that balance aesthetics and functionality. With expertise in UX/UI, I focus on clean visuals, responsive layouts, and seamless experiences for web and mobile. My approach is user-centered, ensuring each design is impactful and effective.",
+      "skills": [
+        { "name": "Figma", "logo": "../../assets/Figma.svg" },
+        { "name": "Framer", "logo": "../../assets/Framer.svg" },
+        { "name": "Miro", "logo": "../../assets/Miro.svg" },
+        { "name": "Lottie", "logo": "../../assets/Lottie.svg" },
+        { "name": "Balsamiq", "logo": "../../assets/Balsamiq.svg" },
+        { "name": "Maze", "logo": "../../assets/Maze.svg" },
+        { "name": "Storybook", "logo": "../../assets/Storybook.svg" }
+      ]
+    },
+    {
+      "icon": "FaCode",
+      "title": "Code",
+      "description": "I’m skilled in front-end development, turning design concepts into responsive, interactive web experiences. With expertise in HTML, CSS, JavaScript, and React, I create clean, scalable code that ensures seamless user interactions and smooth performance across all devices.",
+      "skills": [
+        { "name": "HTML", "logo": "../../assets/Html.svg" },
+        { "name": "CSS", "logo": "../../assets/Css.svg" },
+        { "name": "JavaScript", "logo": "../../assets/Javascript.svg" },
+        { "name": "React", "logo": "../../assets/React.svg" },
+        { "name": "Tailwind CSS", "logo": "../../assets/Tailwind.svg" },
+        { "name": "Motion", "logo": "../../assets/Motion.svg" },
+        { "name": "Github", "logo": "../../assets/Github.svg" }
+      ]
+    }
+  ],
+  "aboutMe": {
+    "title": "About Me",
+    "description": [
+      "Hi, I’m Oswell Kudzai Mapuranga, a product designer with a unique blend of creativity and technical know-how. I’m passionate about creating user-centered designs that not only look great but also work seamlessly. My journey into design started with a love for technology and an insatiable curiosity for understanding how things work—and how to make them better.",
+      "I thrive at the intersection of design and development, bridging the gap between conceptual ideas and functional code. Whether it’s designing intuitive interfaces, optimizing user experiences, or coding the finer details, I love turning complex problems into simple, elegant solutions.",
+      "When I’m not designing, you’ll probably find me geeking out over the latest gadgets, diving into anything nerdy, or enjoying a good game—both on and off the field. I’m also a lifelong learner, always exploring new tools, trends, and technologies to expand my skill set and stay ahead in the ever-evolving tech space.",
+      "Let’s build something extraordinary together!"
+    ]
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "Kudzai's ability to design seamless user experiences is unparalleled. His attention to detail, aesthetic sensibility, and innovative ideas consistently result in products that are both visually engaging and user-friendly.",
+      "name": "Takudzwa B",
+      "title": "Software Engineer, AfriSight"
+    },
+    {
+      "id": 2,
+      "text": "His passion for design and technology is evident in everything he does. His designs are clean, efficient, and user-centric. I can always rely on him to create experiences that are both visually striking and easy to navigate.",
+      "name": "Farai C",
+      "title": "Product Manager, African Unicorn"
+    },
+    {
+      "id": 3,
+      "text": "It's a pleasure working with Kudzai. His design skills are excellent, and his ability to translate them into code means less back-and-forth. I appreciate his attention to detail and his adaptability to changing requirements.",
+      "name": "Thomas M",
+      "title": "CEO, Tango Africa"
+    },
+    {
+      "id": 4,
+      "text": "Working with Kudzai has been an incredible experience. His design skills are top-notch, and he’s always quick to implement feedback. His ability to code makes the process smooth, ensuring a flawless end product.",
+      "name": "Sally Ben",
+      "title": "Founder, Startup Inc."
+    },
+    {
+      "id": 5,
+      "text": "Kudzai's ability to create beautiful, functional designs and then bring them to life with clean code is impressive. He’s always eager to learn and grow, making him an invaluable asset to any project.",
+      "name": "Innocent M",
+      "title": "Founder, Startup Inc."
+    }
+  ],
+  "contact": {
+    "title": "If you'd like to work together, it's best if we get on a call.",
+    "description": "We'll determine if there's a fit to work together. No sales pitches, no BS, just a productive 30-minute conversation. If you prefer to work async, you can email me at",
+    "email": "info@mapuranga.com",
+    "buttonText": "Email me"
+  }
+}

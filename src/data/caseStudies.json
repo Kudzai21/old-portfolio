@@ -1,0 +1,459 @@
+{
+  "caseStudies": [
+    {
+      "id": 1,
+      "hero": {
+        "description": "Afrisight, a platform with over a million users, needed a comprehensive redesign of its online platform and dashboard to improve usability, increase engagement, and streamline data presentation for both survey participants and corporate clients. The redesign aimed to modernize the user interface, simplify navigation, and provide a seamless mobile experience. The outcome was a significant boost in user satisfaction, retention, and corporate client satisfaction, with measurable success metrics post-launch.",
+        "client": "Afrisight",
+        "role": "UX/UI Designer",
+        "duration": "5 Months",
+        "platformURL": "https://panel.afrisight.com/"
+      },
+      "projectGoals": {
+        "description": "The overarching goal was to improve the user experience and modernize the UI across the Afrisight platform and dashboard. The main objectives were:",
+        "objectives": [
+          {
+            "semibold": "Simplify Navigation:",
+            "text": " Ensure users can easily access surveys, track rewards, and manage profiles."
+          },
+          {
+            "semibold": "Enhance Engagement:",
+            "text": " Provide clear visual feedback on survey progress and rewards to motivate users."
+          },
+          {
+            "semibold": "Streamline Data Presentation:",
+            "text": " Deliver actionable and visually clear insights for corporate clients through intuitive dashboards."
+          },
+          {
+            "semibold": "Modernize UI:",
+            "text": " Align the design with Afrisight’s brand while creating an engaging, modern interface."
+          },
+          {
+            "semibold": "Optimize for Mobile:",
+            "text": " Ensure a seamless, responsive experience for mobile users."
+          }
+        ],
+        "images": [
+          {
+            "src": "Example.jpg",
+            "alt": "Project Goals Image"
+          }
+        ]
+      },
+      "problem": {
+        "description": "Afrisight’s platform and dashboard were facing the following challenges:",
+        "challenges": [
+          {
+            "semibold": "Complex Navigation:",
+            "text": " Users struggled to find surveys, track rewards, and update profiles efficiently."
+          },
+          {
+            "semibold": "Low Engagement:",
+            "text": " Survey participants lacked motivation due to unclear progress and reward tracking."
+          },
+          {
+            "semibold": "Data Overload:",
+            "text": " Corporate clients found it difficult to interpret data insights and access reports."
+          },
+          {
+            "semibold": "Outdated Design:",
+            "text": " The platform lacked a modern, user-friendly interface, impacting user retention."
+          },
+          {
+            "semibold": "Limited Mobile Usability:",
+            "text": " Poor responsiveness created frustration for mobile users, who form a large segment of Afrisight’s audience."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "Problem Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "Problem Image 2"
+          }
+        ]
+      },
+      "solution": {
+        "description": "The overarching goal was to improve the user experience and modernize the UI across the Afrisight platform and dashboard. The main objectives were:",
+        "solutions": [
+          {
+            "semibold": "Redesigned Information Architecture:",
+            "text": [
+              "Created a sidebar navigation for easy access to “Surveys”, “Rewards”, “Profile”, and “Insights”.",
+              "Prioritized survey visibility and direct access to actionable tasks."
+            ]
+          },
+          {
+            "semibold": "Improved Data Visualization:",
+            "text": [
+              "Designed interactive progress bars, pie charts, and graphs for clear tracking of survey completion and rewards.",
+              "Simplified corporate dashboards with visually clear reports."
+            ]
+          },
+          {
+            "semibold": "Mobile-First Design:",
+            "text": [
+              "Ensured full responsiveness, optimizing layouts for both large and small screens.",
+              "Added a prominent “Available Surveys” button on the mobile homepage for one-tap access."
+            ]
+          },
+          {
+            "semibold": "Modern UI:",
+            "text": [
+              "Refreshed color schemes, typography, and iconography to reflect Afrisight’s brand.",
+              "Added microinteractions for better user feedback and engagement."
+            ]
+          },
+          {
+            "semibold": "Accessible Design:",
+            "text": [
+              "Implemented high-contrast ratios and large tap targets for inclusivity.",
+              "Used straightforward language for navigation labels to enhance usability."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "Solution Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "Solution Image 2"
+          },
+          {
+            "src": "Tile3.jpg",
+            "alt": "Solution Image 3"
+          }
+        ]
+      },
+      "outcomes": {
+        "description": "The overarching goal was to improve the user experience and modernize the UI across the Afrisight platform and dashboard. The main objectives were:",
+        "objectives": [
+          {
+            "semibold": "Increased User Engagement:",
+            "text": " Survey participation rates increased by 42% post-redesign, driven by better navigation and progress tracking."
+          },
+          {
+            "semibold": "Higher User Retention:",
+            "text": " User retention grew by 24% due to an improved mobile experience and engaging interface."
+          },
+          {
+            "semibold": "Enhanced Corporate Satisfaction:",
+            "text": " Corporate clients reported a 52% reduction in time spent extracting insights from dashboards, thanks to simplified and clear data visualizations."
+          },
+          {
+            "semibold": "Platform Growth:",
+            "text": " The user base expanded by 20% within six months of the redesign, surpassing the 1 million user mark, as the platform became more user-friendly and efficient."
+          },
+          {
+            "semibold": "Improved Mobile Usability:",
+            "text": " Mobile users experienced a seamless and engaging interface, contributing to a 63% increase in survey completion via mobile devices."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile5.jpg",
+            "alt": "Outcome Image"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "hero": {
+        "description": "Tango Africa’s old website struggled with outdated visuals, poor navigation, and a lack of mobile responsiveness, limiting user engagement and event discovery. Tasked with redesigning the platform, I created a modern, user-friendly, and responsive website that improved usability, highlighted events, and encouraged app downloads. By focusing on a clean layout, vibrant visuals, and mobile-first design, the new website successfully aligned with Tango Africa’s mission to connect users with exciting local events, resulting in higher engagement and a stronger brand presence.",
+        "client": "JetCheap",
+        "role": "UX/UI Designer",
+        "duration": "2 Months",
+        "platformURL": "https://tango.co.zw/"
+      },
+      "projectGoals": {
+        "description": "The old Tango Africa website faced significant usability and design issues:",
+        "objectives": [
+          {
+            "semibold": "Modernize the Design:",
+            "text": " Create a fresh, vibrant design aligned with Tango Africa’s brand and mission."
+          },
+          {
+            "semibold": "Enhance Usability:",
+            "text": " Make events a focal point of the design, improving visibility and engagement."
+          },
+          {
+            "semibold": "Mobile Optimization:",
+            "text": " Ensure the website provides a seamless experience across all devices, particularly mobile."
+          },
+          {
+            "semibold": "Promote Event Discovery:",
+            "text": " Highlight events effectively with dynamic visuals and easy-to-access event details."
+          },
+          {
+            "semibold": "Encourage App Downloads:",
+            "text": " Position the app as the main access point for users and drive downloads with clear CTAs."
+          }
+        ],
+        "images": [
+          {
+            "src": "Example.jpg",
+            "alt": "JetCheap Project Goals Image"
+          }
+        ]
+      },
+      "problem": {
+        "description": "The old Tango Africa website presented several challenges that hindered its ability to engage users effectively:",
+        "challenges": [
+          {
+            "semibold": "Outdated Visual Design:",
+            "text": " The old design lacked modern aesthetics, making the website appear unappealing and outdated compared to competitors."
+          },
+          {
+            "semibold": "Cluttered Layout:",
+            "text": " The structure lacked hierarchy, making it difficult for users to find key information about the event."
+          },
+          {
+            "semibold": "Poor Event Discovery:",
+            "text": " Events were not showcased prominently, limiting users' ability to discover and engage with them."
+          },
+          {
+            "semibold": "Limited Responsiveness:",
+            "text": " The old website was not fully optimized for mobile devices, leading to poor user experiences on smaller screens."
+          },
+          {
+            "semibold": "No Clear User Journey:",
+            "text": " The website failed to guide users effectively, resulting in unclear paths for discovering events, learning about features, or downloading the app."
+          },
+          {
+            "semibold": "Lack of Brand Representation:",
+            "text": " The site did not reflect Tango Africa’s vibrant identity as a gateway to exciting local events."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "JetCheap Problem Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "JetCheap Problem Image 2"
+          }
+        ]
+      },
+      "solution": {
+        "subheading": "Redesigned Information Architecture",
+        "description": "To address the challenges, I implemented a comprehensive redesign that focused on user-centric design principles and modern web standards:",
+        "solutions": [
+          {
+            "semibold": "Streamlined Navigation and Layout:",
+            "text": [
+              "Simplified the website structure, starting with a prominent hero section featuring a bold tagline (Find More Of The Events You Love), and a search field. This created a clear entry point for users."
+            ]
+          },
+          {
+            "semibold": "Enhanced Event Discovery:",
+            "text": [
+              "Designed visually appealing event cards with high-quality images and concise details (event name, location, and category). Events were made a focal point of the website, helping users find relevant activities effortlessly."
+            ]
+          },
+          {
+            "semibold": "Mobile-First Design:",
+            "text": [
+              "Adopted a responsive design approach to ensure a seamless experience across all devices. The layout, buttons, and navigation were optimized for mobile users, who could now access information easily on smaller screens."
+            ]
+          },
+          {
+            "semibold": "Modern UI Design:",
+            "text": [
+              "Refreshed the website with a clean, vibrant aesthetic using a neutral background, pops of teal and blue for highlights, and modern typography. This aligned the design with Tango Africa’s energetic and engaging brand."
+            ]
+          },
+          {
+            "semibold": "App Promotion:",
+            "text": [
+              "Placed app store buttons prominently above the footer section, complemented by mobile screenshots to demonstrate the app’s functionality and benefits, driving more downloads."
+            ]
+          },
+          {
+            "semibold": "Added Support Features:",
+            "text": [
+              "Integrated an FAQ section to address common queries and provided clear contact information to improve user support."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "JetCheap Solution Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "JetCheap Solution Image 2"
+          },
+          {
+            "src": "Tile3.jpg",
+            "alt": "Choto Solution Image 2"
+          }
+        ]
+      },
+      "outcomes": {
+        "description": "The design changes led to the following results:",
+        "objectives": [
+          {
+            "semibold": "Improved Usability:",
+            "text": " The redesigned navigation and streamlined layout made it easier for users to explore events, access information, and download the app with fewer clicks."
+          },
+          {
+            "semibold": "Higher Event Engagement:",
+            "text": " The event-centric design increased visibility and engagement, helping users discover events more effectively."
+          },
+          {
+            "semibold": "Enhanced Mobile Accessibility:",
+            "text": " With a fully responsive design, the website now delivers a seamless experience across devices, particularly for mobile users."
+          },
+          {
+            "semibold": "Increased App Downloads:",
+            "text": " Clear CTAs and prominent app promotion led to a noticeable increase in app downloads."
+          },
+          {
+            "semibold": "Stronger Brand Identity:",
+            "text": " The refreshed, modern design reflects Tango Africa’s mission and vibrancy, building user trust and loyalty."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile5.jpg",
+            "alt": "JetCheap Outcome Image"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "hero": {
+        "description": "Choto is a mobile app that connects energy producers with users who rent energy services via various assets. As the UX/UI designer, I was tasked with creating an intuitive interface and smooth user experience for both agents and users across multiple service levels.",
+        "client": "Choto",
+        "role": "UX/UI Designer",
+        "duration": "6 Months",
+        "platformURL": "https://www.driveable.com"
+      },
+      "projectGoals": {
+        "description": "The primary goal was to create a seamless user experience across multiple panels for different user types. The objectives included:",
+        "objectives": [
+          {
+            "semibold": "Streamline Service Selection:",
+            "text": " Simplify the process of selecting energy services and viewing available assets."
+          },
+          {
+            "semibold": "Enhance User Engagement:",
+            "text": " Provide clear visuals and feedback for task completion and energy usage."
+          },
+          {
+            "semibold": "Improve Agent Workflow:",
+            "text": " Ensure that agents can easily manage users and assets within the app."
+          },
+          {
+            "semibold": "Ensure Seamless Navigation:",
+            "text": " Design a user-friendly interface for easy navigation across different service levels."
+          }
+        ],
+        "images": [
+          {
+            "src": "Example.jpg",
+            "alt": "Choto Project Goals Image"
+          }
+        ]
+      },
+      "problem": {
+        "description": "The app faced challenges in simplifying workflows for both agents and users, including:",
+        "challenges": [
+          {
+            "semibold": "Complicated Service Selection:",
+            "text": " Users and agents found it difficult to navigate the service options and available assets."
+          },
+          {
+            "semibold": "Inefficient Agent Dashboard:",
+            "text": " Agents struggled with managing and assigning energy assets to users."
+          },
+          {
+            "semibold": "Low User Engagement:",
+            "text": " Users did not have clear insights into their energy usage or reward status."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "Choto Problem Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "Choto Problem Image 2"
+          }
+        ]
+      },
+      "solution": {
+        "description": "To resolve these issues, I implemented the following solutions:",
+        "solutions": [
+          {
+            "semibold": "Simplified Service Flow:",
+            "text": [
+              "Created clear navigation paths for users and agents to select and view available services.",
+              "Organized asset categories based on user and agent needs for quick access."
+            ]
+          },
+          {
+            "semibold": "Enhanced Agent Dashboard:",
+            "text": [
+              "Redesigned the dashboard to provide agents with easy access to user profiles and assets.",
+              "Introduced task management features to help agents track and manage service assignments."
+            ]
+          },
+          {
+            "semibold": "Improved User Feedback:",
+            "text": [
+              "Integrated real-time energy usage stats and reward tracking for users.",
+              "Displayed visual indicators to show energy consumption and available rewards."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile1.jpg",
+            "alt": "Choto Solution Image 1"
+          },
+          {
+            "src": "Tile2.jpg",
+            "alt": "Choto Solution Image 2"
+          },
+          {
+            "src": "Tile3.jpg",
+            "alt": "Choto Solution Image 2"
+          }
+        ]
+      },
+      "outcomes": {
+        "description": "The solution led to the following results:",
+        "objectives": [
+          {
+            "semibold": "Simplified User and Agent Experience:",
+            "text": " Users and agents were able to navigate through the app with fewer clicks and clearer guidance."
+          },
+          {
+            "semibold": "Improved User Engagement:",
+            "text": " User engagement improved due to clearer energy usage and rewards visibility."
+          },
+          {
+            "semibold": "Faster Task Completion:",
+            "text": " Agents reported higher efficiency in managing users and assets."
+          }
+        ],
+        "images": [
+          {
+            "src": "Tile5.jpg",
+            "alt": "Choto Outcome Image"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+/* Hero.css */
+
+/* Parent container for letters */
+.hover-stretch-text {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Styling for each letter */
+.hover-stretch-letter {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Stretch effect on hover */
+.hover-stretch-letter:hover {
+    transform: scaleY(1.5); /* Stretch vertically */
+}

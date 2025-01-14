@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Sacramento&family=Six+Caps&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-customPrimary cursor-default;
+  }
+}
+
+* {
+    font-family: "Geist", "Sacramento", "Six Caps", "sans-serif", "script", "cursive";
+  }
