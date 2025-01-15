@@ -35,7 +35,7 @@
         ],
         "images": [
           {
-            "src": "Example.jpg",
+            "src": "home.jpg",
             "alt": "Project Goals Image"
           }
         ]
@@ -66,11 +66,11 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "problem1.jpg",
             "alt": "Problem Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "problem2.jpg",
             "alt": "Problem Image 2"
           }
         ]
@@ -116,15 +116,15 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "solution1.jpg",
             "alt": "Solution Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "solution2.jpg",
             "alt": "Solution Image 2"
           },
           {
-            "src": "Tile3.jpg",
+            "src": "solution3.jpg",
             "alt": "Solution Image 3"
           }
         ]
@@ -155,7 +155,7 @@
         ],
         "images": [
           {
-            "src": "Tile5.jpg",
+            "src": "outcome.jpg",
             "alt": "Outcome Image"
           }
         ]
