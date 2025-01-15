@@ -167,7 +167,7 @@
         "description": "Tango Africa’s old website struggled with outdated visuals, poor navigation, and a lack of mobile responsiveness, limiting user engagement and event discovery. Tasked with redesigning the platform, I created a modern, user-friendly, and responsive website that improved usability, highlighted events, and encouraged app downloads. By focusing on a clean layout, vibrant visuals, and mobile-first design, the new website successfully aligned with Tango Africa’s mission to connect users with exciting local events, resulting in higher engagement and a stronger brand presence.",
         "client": "JetCheap",
         "role": "UX/UI Designer",
-        "duration": "2 Months",
+        "duration": "3 Months",
         "platformURL": "https://tango.co.zw/"
       },
       "projectGoals": {
@@ -331,30 +331,30 @@
     {
       "id": 3,
       "hero": {
-        "description": "Choto is a mobile app that connects energy producers with users who rent energy services via various assets. As the UX/UI designer, I was tasked with creating an intuitive interface and smooth user experience for both agents and users across multiple service levels.",
-        "client": "Choto",
+        "description": "Driveable, a newly launched business, aimed to enter the delivery service market with its first-ever mobile application. The goal was to create a seamless and user-friendly platform that would allow customers to place delivery orders effortlessly and enable drivers to manage and complete deliveries efficiently. With no prior digital platform, Driveable relied on this app to establish its presence, streamline its operations, and foster trust among its audience.",
+        "client": "Driveable",
         "role": "UX/UI Designer",
-        "duration": "6 Months",
+        "duration": "2 Months",
         "platformURL": "https://www.driveable.com"
       },
       "projectGoals": {
-        "description": "The primary goal was to create a seamless user experience across multiple panels for different user types. The objectives included:",
+        "description": "To address these challenges, the design process focused on achieving the following:",
         "objectives": [
           {
-            "semibold": "Streamline Service Selection:",
-            "text": " Simplify the process of selecting energy services and viewing available assets."
+            "semibold": "Create a User-Friendly App:",
+            "text": " Design an intuitive interface that simplifies navigation and improves the overall user experience for both customers and drivers."
           },
           {
-            "semibold": "Enhance User Engagement:",
-            "text": " Provide clear visuals and feedback for task completion and energy usage."
+            "semibold": "Streamline Delivery Operations:",
+            "text": "  Develop features that enable efficient order management, real-time tracking, and route optimization for drivers."
           },
           {
-            "semibold": "Improve Agent Workflow:",
-            "text": " Ensure that agents can easily manage users and assets within the app."
+            "semibold": "Establish a Strong Digital Presence:",
+            "text": " Build a visually appealing app that aligns with Driveable’s brand identity and creates a lasting impression."
           },
           {
-            "semibold": "Ensure Seamless Navigation:",
-            "text": " Design a user-friendly interface for easy navigation across different service levels."
+            "semibold": "Ensure Scalability:",
+            "text": " Design the app architecture to accommodate future growth, additional features, and an expanding user base."
           }
         ],
         "images": [
@@ -365,19 +365,23 @@
         ]
       },
       "problem": {
-        "description": "The app faced challenges in simplifying workflows for both agents and users, including:",
+        "description": "As a new business, Driveable faced several challenges:",
         "challenges": [
           {
-            "semibold": "Complicated Service Selection:",
-            "text": " Users and agents found it difficult to navigate the service options and available assets."
+            "semibold": "Lack of Digital Presence:",
+            "text": " Without a mobile app or online platform, Driveable struggled to reach and engage customers effectively."
           },
           {
-            "semibold": "Inefficient Agent Dashboard:",
-            "text": " Agents struggled with managing and assigning energy assets to users."
+            "semibold": "Inefficient Delivery Process:",
+            "text": " The absence of a digital system led to inefficiencies, with delivery operations handled manually, resulting in delays and mismanagement."
           },
           {
-            "semibold": "Low User Engagement:",
-            "text": " Users did not have clear insights into their energy usage or reward status."
+            "semibold": "Poor User Experience:",
+            "text": " Potential customers and drivers lacked a central, intuitive platform to interact with, making it difficult to attract and retain users."
+          },
+          {
+            "semibold": "Brand Recognition:",
+            "text": " As a new entrant in a competitive market, Driveable needed a strong and consistent digital identity to build brand awareness and trust."
           }
         ],
         "images": [
@@ -392,27 +396,34 @@
         ]
       },
       "solution": {
-        "description": "To resolve these issues, I implemented the following solutions:",
+        "description": "The solutions were designed to address the challenges faced by Driveable:",
         "solutions": [
           {
-            "semibold": "Simplified Service Flow:",
+            "semibold": "User-Centric Design:",
             "text": [
-              "Created clear navigation paths for users and agents to select and view available services.",
-              "Organized asset categories based on user and agent needs for quick access."
+              "Conducted user research to understand the needs of both customers and drivers, creating a design tailored to their workflows.",
+              "Designed a clean, intuitive interface with easy navigation to enhance user experience."
             ]
           },
           {
-            "semibold": "Enhanced Agent Dashboard:",
+            "semibold": "Streamlined Delivery Features:",
             "text": [
-              "Redesigned the dashboard to provide agents with easy access to user profiles and assets.",
-              "Introduced task management features to help agents track and manage service assignments."
+              "Integrated real-time tracking, allowing customers to monitor their deliveries in progress.",
+              "Designed a driver dashboard for managing tasks, optimizing routes, and tracking delivery statuses."
             ]
           },
           {
-            "semibold": "Improved User Feedback:",
+            "semibold": "Modern Visual Design:",
             "text": [
-              "Integrated real-time energy usage stats and reward tracking for users.",
-              "Displayed visual indicators to show energy consumption and available rewards."
+              "Used Driveable’s brand colors, typography, and iconography to establish a strong visual identity.",
+              "Incorporated microinteractions to enhance feedback and engagement."
+            ]
+          },
+          {
+            "semibold": "Responsive and Scalable Architecture:",
+            "text": [
+              "Designed the app to be fully responsive, ensuring a seamless experience across devices.",
+              "Developed a marketing strategy to promote the app launch and attract users."
             ]
           }
         ],
@@ -432,19 +443,23 @@
         ]
       },
       "outcomes": {
-        "description": "The solution led to the following results:",
+        "description": "The results of the project highlighted the success of the design approach:",
         "objectives": [
           {
-            "semibold": "Simplified User and Agent Experience:",
-            "text": " Users and agents were able to navigate through the app with fewer clicks and clearer guidance."
+            "semibold": "Enhanced User Experience:",
+            "text": " The app’s intuitive design ensures that customers and drivers can easily navigate its features, promoting smooth interactions and task completion."
           },
           {
-            "semibold": "Improved User Engagement:",
-            "text": " User engagement improved due to clearer energy usage and rewards visibility."
+            "semibold": "Streamlined Operations:",
+            "text": " Delivery management processes are more organized, enabling drivers to manage orders efficiently while providing customers with real-time updates."
           },
           {
-            "semibold": "Faster Task Completion:",
-            "text": " Agents reported higher efficiency in managing users and assets."
+            "semibold": "Strong Brand Identity:",
+            "text": " The app effectively represents Driveable’s branding, creating a consistent and trustworthy digital presence."
+          },
+          {
+            "semibold": "Scalable Foundation:",
+            "text": " The app is designed to support future growth, including additional features and an expanding user base, ensuring long-term success."
           }
         ],
         "images": [
