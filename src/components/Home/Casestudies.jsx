@@ -125,7 +125,7 @@ const Casestudies = () => {
   return (
     <>
       <motion.h1
-  className="text-center text-7xl mt-20 pb-10 font-six-caps"
+  className="text-center text-5xl lg:text-7xl mt-20 pb-10 font-six-caps"
 >
   {["Case", "Study", "Projects"].map((word, wordIndex) => (
     <React.Fragment key={wordIndex}>

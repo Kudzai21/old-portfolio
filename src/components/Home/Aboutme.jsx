@@ -97,7 +97,7 @@ const AboutMe = () => {
     <>
       {/* Title */}
       <section className="text-center mt-20 pb-5">
-        <motion.h1 className="text-center text-7xl mt-20 pb-10 font-six-caps">
+        <motion.h1 className="text-center text-5xl lg:text-7xl mt-20 pb-10 font-six-caps">
           {["Get", "To", "Know", "Me"].map((word, wordIndex) => (
             <React.Fragment key={wordIndex}>
               {word.split("").map((char, charIndex) => (
