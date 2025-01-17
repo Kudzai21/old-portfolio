@@ -97,7 +97,16 @@ const AboutMe = () => {
     <>
       {/* Title */}
       <section className="text-center mt-20 pb-5">
-        <motion.h1 className="text-center text-5xl lg:text-7xl mt-20 pb-10 font-six-caps">
+      <motion.h2
+          className="text-base lg:text-lg pb-5 font-normal mt-20 text-customSecondary"
+          initial={{ opacity: 0, y: -50 }} // Start off-screen and hidden
+          whileInView={{ opacity: 1, y: 0 }} // Animate to visible and in place
+          viewport={{ once: false, amount: 0.2 }} // Trigger animation when 20% is in view
+          transition={{ duration: 0.6 }} // Duration for smooth animation
+        >
+          {subtitle}
+        </motion.h2>
+        <motion.h1 className="text-center text-5xl lg:text-7xl pb-10 font-six-caps">
           {["Get", "To", "Know", "Me"].map((word, wordIndex) => (
             <React.Fragment key={wordIndex}>
               {word.split("").map((char, charIndex) => (
@@ -113,15 +122,7 @@ const AboutMe = () => {
           ))}
         </motion.h1>
 
-        <motion.h2
-          className="text-xl lg:text-2xl pb-3 text-customSecondary font-medium"
-          initial={{ opacity: 0, y: -50 }} // Start off-screen and hidden
-          whileInView={{ opacity: 1, y: 0 }} // Animate to visible and in place
-          viewport={{ once: false, amount: 0.2 }} // Trigger animation when 20% is in view
-          transition={{ duration: 0.6 }} // Duration for smooth animation
-        >
-          {subtitle}
-        </motion.h2>
+        
       </section>
 
       {/* Cards */}

@@ -196,7 +196,7 @@
         ],
         "images": [
           {
-            "src": "Example.jpg",
+            "src": "project.jpg",
             "alt": "JetCheap Project Goals Image"
           }
         ]
@@ -231,11 +231,11 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "problem1.jpg",
             "alt": "JetCheap Problem Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "problem2.jpg",
             "alt": "JetCheap Problem Image 2"
           }
         ]
@@ -283,15 +283,15 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "solution1.jpg",
             "alt": "JetCheap Solution Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "solution2.jpg",
             "alt": "JetCheap Solution Image 2"
           },
           {
-            "src": "Tile3.jpg",
+            "src": "solution3.jpg",
             "alt": "Choto Solution Image 2"
           }
         ]
@@ -301,11 +301,11 @@
         "objectives": [
           {
             "semibold": "Improved Usability:",
-            "text": " The redesigned navigation and streamlined layout made it easier for users to explore events, access information, and download the app with fewer clicks."
+            "text": " The redesigned navigation and streamlined layout improved user experience, with 62% of users reporting easier access to events and app-related information in post-launch surveys."
           },
           {
             "semibold": "Higher Event Engagement:",
-            "text": " The event-centric design increased visibility and engagement, helping users discover events more effectively."
+            "text": " Event page visits increased by 46%, as the event-centric design encouraged users to discover and engage with more events."
           },
           {
             "semibold": "Enhanced Mobile Accessibility:",
@@ -313,16 +313,16 @@
           },
           {
             "semibold": "Increased App Downloads:",
-            "text": " Clear CTAs and prominent app promotion led to a noticeable increase in app downloads."
+            "text": " App downloads surged by 8% after launch, driven by prominent CTAs and effective app promotion on the website."
           },
           {
             "semibold": "Stronger Brand Identity:",
-            "text": " The refreshed, modern design reflects Tango Africa’s mission and vibrancy, building user trust and loyalty."
+            "text": " User feedback highlighted a 74% increase in brand trust and loyalty, as the refreshed design resonated with Tango Africa’s mission and vibrant identity."
           }
         ],
         "images": [
           {
-            "src": "Tile5.jpg",
+            "src": "outcome.jpg",
             "alt": "JetCheap Outcome Image"
           }
         ]

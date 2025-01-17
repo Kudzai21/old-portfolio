@@ -1,9 +1,9 @@
 import data from "../../../data/caseStudies.json";
 
 // Import images statically
-import Image1 from "../../../assets/Tile1.jpg"; // Replace with your actual path
-import Image2 from "../../../assets/Tile2.jpg"; // Replace with your actual path
-import Image3 from "../../../assets/Tile3.jpg"; // Replace with your actual path
+import Image1 from "../../../assets/images2/solution1.jpg"; // Replace with your actual path
+import Image2 from "../../../assets/images2/solution2.jpg"; // Replace with your actual path
+import Image3 from "../../../assets/images2/solution3.jpg"; // Replace with your actual path
 
 const Solution = () => {
   // Find the case study with id 1
@@ -17,9 +17,9 @@ const Solution = () => {
 
   // Map image filenames from JSON to actual imported images
   const imageMap = {
-    "Tile1.jpg": Image1,
-    "Tile2.jpg": Image2,
-    "Tile3.jpg": Image3,
+    "solution1.jpg": Image1,
+    "solution2.jpg": Image2,
+    "solution3.jpg": Image3,
   };
 
   return (
