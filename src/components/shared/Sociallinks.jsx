@@ -5,7 +5,6 @@ import {
   FaMedium,
   FaBehance,
   FaDribbble,
-  FaInstagram,
 } from "react-icons/fa6";
 
 const Sociallinks = () => {
@@ -15,11 +14,10 @@ const Sociallinks = () => {
     { id: 3, href: "https://medium.com/@mapurangako", icon: <FaMedium /> },
     { id: 4, href: "https://www.behance.net/komapuranga", icon: <FaBehance /> },
     { id: 5, href: "https://dribbble.com/Kudzai_Oz", icon: <FaDribbble /> },
-    { id: 6, href: "https://instagram.com", icon: <FaInstagram /> },
   ];
 
   return (
-    <div className="fixed top-2 py-4 mx-10 z-10 sm:flex flex-col sm:space-y-4 sm:top-1/2 transform sm:-translate-y-1/2">
+    <div className="fixed top-2 sm:top-1/2 left-1/2 sm:left-auto transform sm:-translate-y-1/2 -translate-x-1/2 sm:transform-none py-4 z-10 flex flex-row sm:flex-col space-x-3 sm:space-x-0 sm:space-y-4">
       {Sociallink.map(({ id, href, icon }) => (
         <a
           key={id}

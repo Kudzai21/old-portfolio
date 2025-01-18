@@ -17,7 +17,7 @@
       { "name": "Lottie", "color": "#00DDB3" },
       { "name": "Motion", "color": "#0055FF" }
     ],
-    "ctaMessage": "Pssst scroll down to see my work"
+    "ctaMessage": "0 to 1 Design"
   },
   "carouselImages": [
     { "src": "Carousel1.jpg", "alt": "Placeholder image 1" },
@@ -26,6 +26,7 @@
     { "src": "Carousel7.jpg", "alt": "Placeholder image 7" },
     { "src": "Carousel5.jpg", "alt": "Placeholder image 5" },
     { "src": "Carousel4.jpg", "alt": "Placeholder image 4" },
+    { "src": "Carousel8.jpg", "alt": "Placeholder image 8" },
     { "src": "Carousel6.jpg", "alt": "Placeholder image 6" }
 
   ],

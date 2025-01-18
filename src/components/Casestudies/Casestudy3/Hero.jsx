@@ -29,7 +29,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-background h-screen w-full flex flex-col justify-center">
+    <section className="bg-background h-screen w-full mt-10 flex flex-col justify-center">
       <div className="w-full max-w-7xl mx-auto">
         {/* Main Heading and Description */}
         <motion.div

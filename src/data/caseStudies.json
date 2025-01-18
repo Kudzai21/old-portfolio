@@ -359,7 +359,7 @@
         ],
         "images": [
           {
-            "src": "Example.jpg",
+            "src": "project.jpg",
             "alt": "Choto Project Goals Image"
           }
         ]
@@ -386,11 +386,11 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "problem1.jpg",
             "alt": "Choto Problem Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "problem2.jpg",
             "alt": "Choto Problem Image 2"
           }
         ]
@@ -429,15 +429,15 @@
         ],
         "images": [
           {
-            "src": "Tile1.jpg",
+            "src": "solution1.jpg",
             "alt": "Choto Solution Image 1"
           },
           {
-            "src": "Tile2.jpg",
+            "src": "solution2.jpg",
             "alt": "Choto Solution Image 2"
           },
           {
-            "src": "Tile3.jpg",
+            "src": "solution3.jpg",
             "alt": "Choto Solution Image 2"
           }
         ]
@@ -464,7 +464,7 @@
         ],
         "images": [
           {
-            "src": "Tile5.jpg",
+            "src": "outcome.jpg",
             "alt": "Choto Outcome Image"
           }
         ]

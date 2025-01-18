@@ -2,13 +2,15 @@ import React, { useEffect, useState } from "react";
 import homeData from "../../data/home.json";
 
 // Import images statically
-import Carousel1 from "../../assets/Carousel1.jpg";
-import Carousel2 from "../../assets/Carousel2.jpg";
-import Carousel3 from "../../assets/Carousel3.jpg";
-import Carousel4 from "../../assets/Carousel4.jpg";
-import Carousel5 from "../../assets/Carousel5.jpg";
-import Carousel6 from "../../assets/Carousel6.jpg";
-import Carousel7 from "../../assets/Carousel7.jpg";
+import Carousel1 from "../../assets/carousel/Carousel1.jpg";
+import Carousel2 from "../../assets/carousel/Carousel2.jpg";
+import Carousel3 from "../../assets/carousel/Carousel3.jpg";
+import Carousel4 from "../../assets/carousel/Carousel4.jpg";
+import Carousel5 from "../../assets/carousel/Carousel5.jpg";
+import Carousel6 from "../../assets/carousel/Carousel6.jpg";
+import Carousel7 from "../../assets/carousel/Carousel7.jpg";
+import Carousel8 from "../../assets/carousel/Carousel8.jpg";
+
 
 
 const Carousel = ({ speed = 20 }) => {
@@ -24,6 +26,8 @@ const Carousel = ({ speed = 20 }) => {
     "Carousel5.jpg": Carousel5,
     "Carousel6.jpg": Carousel6,
     "Carousel7.jpg": Carousel7,
+    "Carousel8.jpg": Carousel8,
+
   };
 
   const images = homeData.carouselImages.map((image) => ({
