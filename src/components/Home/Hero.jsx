@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import profileImage from "../../assets/Kudzai.jpg"; // Import the image directly for proper path resolution
 import data from "../../data/home.json"; // Adjust the path to where the JSON file is stored
+import { FaArrowRightLong } from "react-icons/fa6"; // Imported an example icon (FaArrowRight)
 import "./../../Hero.css";
 
 const Hero = () => {
@@ -123,7 +124,7 @@ const Hero = () => {
                             variants={childVariants}
                             className="text-center pt-20 text-3xl font-six-caps text-customSecondary"
                         >
-                            {hero.ctaMessage}
+                            0 <FaArrowRightLong className="inline-block mx-2 text-base text-customSecondary" /> 1
                         </motion.p>
                     </motion.div>
                 </div>
