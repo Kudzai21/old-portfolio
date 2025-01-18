@@ -1,7 +1,7 @@
 import data from "../../../data/caseStudies.json";
 
 // Import images statically
-import ExampleImage from "../../../assets/images3/project.jpg"; // Replace with your actual path
+import ExampleImage from "../../../assets/images3/Project.jpg"; // Replace with your actual path
 
 const Project = () => {
   // Find the case study with id 1
@@ -15,7 +15,7 @@ const Project = () => {
 
   // Map image filenames from JSON to actual imported images
   const imageMap = {
-    "project.jpg": ExampleImage, // Map JSON image name to imported image
+    "Project.jpg": ExampleImage, // Map JSON image name to imported image
   };
 
   // Get the correct image source based on the case study data
