@@ -57,7 +57,7 @@ const Hero = () => {
           </h1>
 
           <motion.p
-            className="text-sm sm:text-lg md:text-xl pt-10 font-medium sm:w-3/4"
+            className="text-sm sm:text-lg md:text-xl pt-10 font-medium sm:w-full"
             variants={childVariants}
           >
             {hero.description}
