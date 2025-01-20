@@ -17,7 +17,7 @@ const Sociallinks = () => {
   ];
 
   return (
-    <div className="fixed top-2 sm:top-1/2 left-1/2 sm:left-auto transform -translate-x-1/2 sm:translate-x-0 sm:-translate-y-1/2 py-4 mx-0 sm:mx-32 z-10 flex flex-row sm:flex-col space-x-4 sm:space-x-0 sm:space-y-4">
+    <div className="fixed top-2 sm:top-1/2 left-1/2 sm:left-auto transform -translate-x-1/2 sm:translate-x-0 sm:-translate-y-1/2 py-4 mx-0 sm:mx-10 z-10 flex flex-row sm:flex-col space-x-4 sm:space-x-0 sm:space-y-4">
       {Sociallink.map(({ id, href, icon }) => (
         <a
           key={id}

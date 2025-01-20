@@ -61,7 +61,7 @@ const Carousel = ({ speed = 20 }) => {
             key={index}
             src={image.src}
             alt={image.alt}
-            className="w-[600px] h-[600px] object-cover flex-shrink-0"
+            className="w-[600px] h-[600px] object-cover flex-shrink-0 mx-1"
           />
         ))}
         {/* Render duplicate images for seamless scrolling */}
@@ -70,7 +70,7 @@ const Carousel = ({ speed = 20 }) => {
             key={`duplicate-${index}`}
             src={image.src}
             alt={`Duplicate ${image.alt}`}
-            className="w-[600px] h-[600px] object-cover flex-shrink-0"
+            className="w-[600px] h-[600px] object-cover flex-shrink-0 mx-1"
           />
         ))}
       </div>

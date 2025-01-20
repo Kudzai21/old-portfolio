@@ -22,7 +22,7 @@ const Project = () => {
   const imageSrc = imageMap[projectGoals.images[0].src] || projectGoals.images[0].src; // Fallback to the original src if no mapping is found
 
   return (
-    <div className="flex flex-col items-center max-w-7xl mx-auto mt-10 px-5">
+    <div className="flex flex-col items-center max-w-7xl mx-auto mt-10 sm:mt-20 px-5">
       {/* Image on Top */}
       <img
         src={imageSrc}
