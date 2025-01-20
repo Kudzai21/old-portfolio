@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import data from "../../../data/caseStudies.json";
 
 const Hero = () => {
-  // Find the case study with id 1
+  // Find the case study with id 2
   const caseStudy = data.caseStudies.find((cs) => cs.id === 2);
 
   if (!caseStudy) {
@@ -29,8 +29,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-background h-screen w-full pt-28 flex flex-col justify-center">
-      <div className="w-full max-w-7xl mx-auto">
+    <section className="bg-background h-screen w-full flex flex-col justify-center">
+      <div className="w-full max-w-7xl mx-auto px-5 sm:px-10">
         {/* Main Heading and Description */}
         <motion.div
           className="flex flex-col items-start"
@@ -38,26 +38,26 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
         >
-          <h1 className="text-6xl md:text-8xl lg:text-[12rem] mx-5 font-medium sm:w-1/2 flex flex-wrap">
-          {"Tango Africa".split(" ").map((word, wordIndex) => (
-            <span key={wordIndex} className="inline-block">
-              {Array.from(word).map((char, index) => (
-                <span
-                  key={index}
-                  className={`inline-block hover-stretch-letter font-six-caps ${
-                    char === " " ? "w-2" : ""
-                  }`}
-                >
-                  {char}
-                </span>
-              ))}
-              {wordIndex < 1 && <span className="inline-block w-4"></span>} {/* Space between words */}
-            </span>
-          ))}
-        </h1>
+          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[12rem] font-medium sm:w-3/4 flex flex-wrap">
+            {"Tango Africa".split(" ").map((word, wordIndex) => (
+              <span key={wordIndex} className="inline-block">
+                {Array.from(word).map((char, index) => (
+                  <span
+                    key={index}
+                    className={`inline-block hover-stretch-letter font-six-caps ${
+                      char === " " ? "w-2" : ""
+                    }`}
+                  >
+                    {char}
+                  </span>
+                ))}
+                {wordIndex < 1 && <span className="inline-block w-4"></span>} {/* Space between words */}
+              </span>
+            ))}
+          </h1>
 
           <motion.p
-            className="sm:text-left pt-10 lg:text-xl font-medium mx-5"
+            className="text-sm sm:text-lg md:text-xl pt-10 font-medium sm:w-3/4"
             variants={childVariants}
           >
             {hero.description}
@@ -66,22 +66,22 @@ const Hero = () => {
 
         {/* Bottom Section: Client Info */}
         <motion.div
-          className="flex flex-col sm:flex-row justify-between items-start sm:items-center mx-5 sm:mr-96 mt-10 text-sm"
+          className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-10 text-sm space-y-5 sm:space-y-0"
           variants={parentVariants}
           initial="hidden"
           animate="visible"
         >
           <motion.div className="mb-5 sm:mb-0" variants={childVariants}>
             <p className="mb-2 font-bold text-customSecondary">Client</p>
-            <p className="font-medium">{hero.client}</p>
+            <p className="font-medium break-words">{hero.client}</p>
           </motion.div>
           <motion.div className="mb-5 sm:mb-0" variants={childVariants}>
             <p className="mb-2 font-bold text-customSecondary">Role</p>
-            <p className="font-medium">{hero.role}</p>
+            <p className="font-medium break-words">{hero.role}</p>
           </motion.div>
           <motion.div className="mb-5 sm:mb-0" variants={childVariants}>
             <p className="mb-2 font-bold text-customSecondary">Duration</p>
-            <p className="font-medium">{hero.duration}</p>
+            <p className="font-medium break-words">{hero.duration}</p>
           </motion.div>
           <motion.div variants={childVariants}>
             <p className="font-bold text-customSecondary">Platform URL</p>
@@ -89,7 +89,7 @@ const Hero = () => {
               href={hero.platformURL}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-blue-500 underline"
+              className="font-medium text-blue-500 underline break-words"
             >
               {hero.platformURL}
             </a>

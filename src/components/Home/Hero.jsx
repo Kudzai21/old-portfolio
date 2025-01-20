@@ -85,7 +85,7 @@ const Hero = () => {
                             className="text-xl md:text-2xl lg:text-3xl mx-5"
                         >
                             <h1 className="font-semibold text-5xl lg:text-[12rem] tracking-widest pb-5">
-                                {["PRODUCT", "DESIGNER"].map((word, wordIndex) => (
+                                {["DESIGN", "ENGINEER"].map((word, wordIndex) => (
                                     <React.Fragment key={wordIndex}>
                                     {word.split("").map((char, index) => (
                                         <motion.span
