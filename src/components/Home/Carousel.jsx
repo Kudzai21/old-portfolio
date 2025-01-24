@@ -65,7 +65,7 @@ const Carousel = ({ speed = 20 }) => {
           />
         ))}
         {/* Render duplicate images for seamless scrolling */}
-        {images.map((image, index) => (
+        {images.map((image, index) => ( 
           <img
             key={`duplicate-${index}`}
             src={image.src}

@@ -98,7 +98,7 @@ const AboutMe = () => {
       {/* Title */}
       <section className="text-center mt-20 pb-5">
       <motion.h2
-          className="text-base lg:text-lg pb-5 font-normal mt-20 text-customSecondary"
+          className="text-base lg:text-lg pb-5 font-base mt-20 text-customSecondary"
           initial={{ opacity: 0, y: -50 }} // Start off-screen and hidden
           whileInView={{ opacity: 1, y: 0 }} // Animate to visible and in place
           viewport={{ once: false, amount: 0.2 }} // Trigger animation when 20% is in view

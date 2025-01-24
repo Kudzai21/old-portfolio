@@ -99,17 +99,17 @@ const Hero = () => {
                                     </React.Fragment>
                                 ))}
                             </h1>
-                            <span className="text-customPrimary font-semibold">Designer who codes</span>. 
+                            <span className="text-customPrimary font-normal">Designer who codes</span>. 
                             <span className="text-customSecondary"> I craft</span> 
-                            <span className="text-customPrimary font-semibold"> user-friendly</span> 
+                            <span className="text-customPrimary font-normal"> user-friendly</span> 
                             <span className="text-customSecondary"> designs and responsive front-end solutions, blending </span> 
-                            <span className="text-customPrimary font-semibold">creativity with functionality</span>.
+                            <span className="text-customPrimary font-normal">creativity with functionality</span>.
                         </motion.h1>
 
                         {/* Skill animation with stagger */}
                         <motion.p
                             variants={childVariants}
-                            className="text-center pt-10 text-base md:text-xl"
+                            className="text-center pt-10 font-medium text-base md:text-xl"
                         >
                             I'm good with{" "}
                             <span className="font-bold">
@@ -122,7 +122,7 @@ const Hero = () => {
                         {/* Call-to-action message */}
                         <motion.p
                             variants={childVariants}
-                            className="text-center pt-20 text-3xl font-six-caps text-customSecondary"
+                            className="text-center pt-20 text-3xl font-plus-jakarta-sans  text-customSecondary"
                         >
                             0 <FaArrowRightLong className="inline-block mx-2 text-base text-customSecondary" /> 1
                         </motion.p>

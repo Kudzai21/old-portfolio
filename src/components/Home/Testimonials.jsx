@@ -50,7 +50,7 @@ const Testimonials = () => {
           >
             <div className="p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-md">
               <div className="bg-gradient-to-b from-stone-200/30 to-white/70 p-6">
-                <p className="text-gray-700 italic mb-4">"{testimonial.text}"</p>
+                <p className="text-gray-700 italic font-light mb-4">"{testimonial.text}"</p>
                 <h4 className="font-semibold text-lg">{testimonial.name}</h4>
                 <span className="text-gray-500">{testimonial.title}</span>
               </div>

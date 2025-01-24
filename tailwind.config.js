@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        geist: ['Geist', 'sans-serif'],
+        'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
         sacramento: ['Sacramento', 'script'],
         'six-caps': ['Six Caps', 'sans-serif'],
       },
