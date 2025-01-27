@@ -163,7 +163,7 @@ const Casestudies = () => {
                 ? "text-customPrimary after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-customPrimary"
                 : "text-customSecondary"
             }`}
-            onClick={() => setSelected("code")}
+            onClick={() => setSelected("design")}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
