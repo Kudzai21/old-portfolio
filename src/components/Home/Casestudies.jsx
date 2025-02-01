@@ -12,7 +12,7 @@ import Tile4 from "../../assets/Tile4.jpg";
 import Tile5 from "../../assets/Tile5.jpg";
 import Tile6 from "../../assets/Tile6.jpg";
 
-const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub, navigateTo, index }) => {
+const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub, navigateTo, previewLink, index }) => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
@@ -22,6 +22,10 @@ const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub
 
   const handleGithubClick = () => {
     window.open(githubLink, "_blank"); // Open GitHub link in a new tab
+  };
+
+  const handlePreviewClick = () => {
+    window.open(previewLink, "_blank"); // Open Preview link in a new tab
   };
 
   // Card animation variants
@@ -64,21 +68,36 @@ const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub
               ))}
             </div>
             <div className="flex justify-between gap-4">
-              <motion.button
-                onClick={handleButtonClick}
-                className="group p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-[0_1px_2px_rgba(0,0,0,0.4)] active:shadow-[0,0px,1px,rgba(0,0,0,0.4)] transition-all duration-300"
-                whileHover={{ scale: 1.05, backgroundColor: "#f3f3f3" }}
-              >
-                <div className="bg-gradient-to-b from-stone-200/30 to-white/70 rounded-[8px] px-3 py-2">
-                  <div className="flex font-medium justify-center items-center px-2 text-customPrimary group-hover:text-customSecondary transition-colors duration-300">
-                    {buttonText}
+              {navigateTo && (
+                <motion.button
+                  onClick={handleButtonClick}
+                  className="group p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-[0_1px_2px_rgba(0,0,0,0.4)] active:shadow-[0,0px,1px,rgba(0,0,0,0.4)] transition-all duration-300"
+                  whileHover={{ scale: 1.05, backgroundColor: "#f3f3f3" }}
+                >
+                  <div className="bg-gradient-to-b from-stone-200/30 to-white/70 rounded-[8px] px-3 py-2">
+                    <div className="flex font-medium justify-center items-center px-2 text-customPrimary group-hover:text-customSecondary transition-colors duration-300">
+                      {buttonText}
+                    </div>
                   </div>
-                </div>
-              </motion.button>
+                </motion.button>
+              )}
+              {previewLink && (
+                <motion.button
+                  onClick={handlePreviewClick}
+                  className="group p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-[0_1px_2px_rgba(0,0,0,0.4)] active:shadow-[0,0px,1px,rgba(0,0,0,0.4)] transition-all duration-300"
+                  whileHover={{ scale: 1.05, backgroundColor: "#f3f3f3" }}
+                >
+                  <div className="bg-gradient-to-b from-stone-200/30 to-white/70 rounded-[8px] px-3 py-2">
+                    <div className="flex font-medium justify-center items-center px-2 text-customPrimary group-hover:text-customSecondary transition-colors duration-300">
+                      Preview
+                    </div>
+                  </div>
+                </motion.button>
+              )}
               {showGithub && (
                 <motion.button
                   onClick={handleGithubClick}
-                  className="group p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-[0,0px,1px,rgba(0,0,0,0.4)] active:shadow-[0,0px,1px,rgba(0,0,0,0.4)] transition-all duration-300"
+                  className="group p-[2px] rounded-[10px] bg-gradient-to-b from-white to-stone-200/30 shadow-[0_1px_2px_rgba(0,0,0,0.4)] active:shadow-[0,0px,1px,rgba(0,0,0,0.4)] transition-all duration-300"
                   whileHover={{ scale: 1.05, backgroundColor: "#f3f3f3" }}
                 >
                   <div className="bg-gradient-to-b from-stone-200/30 to-white/70 rounded-[8px] px-3 py-2">
@@ -124,23 +143,18 @@ const Casestudies = () => {
 
   return (
     <>
-      <motion.h1
-  className="text-center text-5xl lg:text-7xl mt-20 pb-10 font-six-caps"
->
-  {["Case", "Study", "Projects"].map((word, wordIndex) => (
-    <React.Fragment key={wordIndex}>
-      {word.split("").map((char, charIndex) => (
-        <motion.span
-          key={charIndex}
-          className="inline-block hover-stretch-letter font-six-caps"
-        >
-          {char}
-        </motion.span>
-      ))}
-      {wordIndex < 2 && <span className="inline-block w-4"></span>} {/* Adds space between words */}
-    </React.Fragment>
-  ))}
-</motion.h1>
+      <motion.h1 className="text-center text-5xl lg:text-7xl mt-20 pb-10 font-six-caps">
+        {["Case", "Study", "Projects"].map((word, wordIndex) => (
+          <React.Fragment key={wordIndex}>
+            {word.split("").map((char, charIndex) => (
+              <motion.span key={charIndex} className="inline-block hover-stretch-letter font-six-caps">
+                {char}
+              </motion.span>
+            ))}
+            {wordIndex < 2 && <span className="inline-block w-4"></span>} {/* Adds space between words */}
+          </React.Fragment>
+        ))}
+      </motion.h1>
 
       <div className="relative w-full flex justify-center pb-10">
         <div className="flex space-x-5 border-b-[1px] border-customSecondary w-max">
@@ -166,7 +180,7 @@ const Casestudies = () => {
             onClick={() => setSelected("design")}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.8, ease: "eagitseOut" }}
           >
             Coding
           </motion.button>
@@ -176,9 +190,11 @@ const Casestudies = () => {
         {cards.length > 0 ? (
           cards.map((card, index) => {
             let navigateTo = "";
-            if (index === 0) navigateTo = "/casestudy";
-            if (index === 1) navigateTo = "/casestudy2";
-            if (index === 2) navigateTo = "/casestudy3";
+            if (selected === "design") {
+              if (index === 0) navigateTo = "/casestudy";
+              if (index === 1) navigateTo = "/casestudy2";
+              if (index === 2) navigateTo = "/casestudy3";
+            }
 
             return (
               <Card
@@ -190,6 +206,7 @@ const Casestudies = () => {
                 githubLink={card.githubLink}
                 showGithub={selected === "code"}
                 navigateTo={navigateTo}
+                previewLink={card.previewLink}
                 index={index}
               />
             );

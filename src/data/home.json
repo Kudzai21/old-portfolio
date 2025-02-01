@@ -66,14 +66,12 @@
       {
         "id": 4,
         "imageSrc": "Tile4.jpg",
-        "title": "Penguin Lake",
+        "title": "Saas Landing Page",
         "description": [
-          { "icon": "iconWebsite", "text": "Website" },
-          { "icon": "iconWebApp", "text": "Web App" },
-          { "icon": "iconMobileApp", "text": "Mobile App" }
+          { "icon": "iconWebsite", "text": "Website" }
         ],
-        "buttonText": "Preview",
-        "githubLink": "https://github.com/project-a"
+        "githubLink": "https://github.com/project-a",
+        "previewLink": "https://saas-landing-page-psi-dusky.vercel.app/"
       },
       {
         "id": 5,
@@ -84,8 +82,8 @@
           { "icon": "iconWebApp", "text": "Web App" },
           { "icon": "iconMobileApp", "text": "Mobile App" }
         ],
-        "buttonText": "Preview",
-        "githubLink": "https://github.com/project-b"
+        "githubLink": "https://github.com/project-b",
+        "previewLink": "https://preview-link-b.com"
       },
       {
         "id": 6,
@@ -96,8 +94,8 @@
           { "icon": "iconMobileApp", "text": "Mobile App" },
           { "icon": "iconDashboard", "text": "Dashboard" }
         ],
-        "buttonText": "Preview",
-        "githubLink": "https://github.com/project-c"
+        "githubLink": "https://github.com/project-c",
+        "previewLink": "https://preview-link-c.com"
       }
     ]
   },
