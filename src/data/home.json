@@ -16,8 +16,7 @@
       { "name": "Storybook", "color": "#FF4785" },
       { "name": "Lottie", "color": "#00DDB3" },
       { "name": "Motion", "color": "#0055FF" }
-    ],
-    "ctaMessage": "0 <span class='icon'>&#x2192;</span> 1 Design"
+    ]
   },
   "carouselImages": [
     { "src": "Carousel1.jpg", "alt": "Placeholder image 1" },
@@ -66,11 +65,12 @@
       {
         "id": 4,
         "imageSrc": "Tile4.jpg",
-        "title": "Saas Landing Page",
+        "title": "Local Connect (SAAS)",
         "description": [
-          { "icon": "iconWebsite", "text": "Website" }
+          { "icon": "iconReact", "text": "React" },
+          { "icon": "iconTailwindCss", "text": "Tailwind CSS" }
         ],
-        "githubLink": "https://github.com/project-a",
+        "githubLink": "https://github.com/Kudzai21/saas-landing-page.git",
         "previewLink": "https://saas-landing-page-psi-dusky.vercel.app/"
       },
       {
@@ -174,7 +174,7 @@
   "contact": {
     "title": "Collaboration Starts With a Conversation!",
     "description": "If you’re interested in working together, have a project in mind, or just want to say hello, feel free to reach out! I’d be happy to chat and explore how we can create something amazing together. Drop me an email. Looking forward to connecting!",
-    "email": "info@mapuranga.com",
+    "email": "mapurangako@gma",
     "buttonText": "Email me"
   }
 }

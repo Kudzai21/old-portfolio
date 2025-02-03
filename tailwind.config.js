@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily: {
         'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
-        sacramento: ['Sacramento', 'script'],
         'six-caps': ['Six Caps', 'sans-serif'],
       },
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaMobileAlt, FaDesktop, FaTabletAlt, FaChartLine } from "react-icons/fa";
+import { FaMobileAlt, FaDesktop, FaTabletAlt, FaChartLine, FaReact, } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import caseStudiesData from "../../data/home.json";
 
@@ -63,6 +64,8 @@ const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub
                   {tag.icon === "iconWebsite" && <FaDesktop />}
                   {tag.icon === "iconWebApp" && <FaTabletAlt />}
                   {tag.icon === "iconDashboard" && <FaChartLine />}
+                  {tag.icon === "iconReact" && <FaReact />}
+                  {tag.icon === "iconTailwindCss" && <RiTailwindCssFill />}
                   <span>{tag.text}</span>
                 </div>
               ))}
@@ -180,7 +183,7 @@ const Casestudies = () => {
             onClick={() => setSelected("design")}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "eagitseOut" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
           >
             Coding
           </motion.button>

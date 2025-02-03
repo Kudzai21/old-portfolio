@@ -124,7 +124,7 @@ const Hero = () => {
                             variants={childVariants}
                             className="text-center pt-20 text-3xl font-plus-jakarta-sans  text-customSecondary"
                         >
-                            0 <FaArrowRightLong className="inline-block mx-2 text-base text-customSecondary" /> 1
+                            Zero <FaArrowRightLong className="inline-block mx-2 text-base text-customSecondary" /> One
                         </motion.p>
                     </motion.div>
                 </div>
