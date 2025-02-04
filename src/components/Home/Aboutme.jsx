@@ -150,7 +150,7 @@ const AboutMe = () => {
             title="About Me"
             description={aboutMeDescription}
           >
-            Kudzai Mapuranga
+            Oswell Kudzai Mapuranga
           </Card>
         </div>
       </div>
