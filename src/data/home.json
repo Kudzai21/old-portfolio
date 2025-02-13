@@ -82,12 +82,12 @@
           { "icon": "iconWebApp", "text": "Web App" },
           { "icon": "iconMobileApp", "text": "Mobile App" }
         ],
-        "githubLink": "https://github.com/project-b",
-        "previewLink": "https://preview-link-b.com"
+        "githubLink": "https://github.com/Kudzai21/news-dashboard.git",
+        "previewLink": "https://news-dashboard-ivory.vercel.app/"
       },
       {
         "id": 6,
-        "imageSrc": "Tile5.jpg",
+        "imageSrc": "Tile6.jpg",
         "title": "Crypto Gene",
         "description": [
           { "icon": "iconWebApp", "text": "Web App" },
