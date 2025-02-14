@@ -88,14 +88,14 @@
       {
         "id": 6,
         "imageSrc": "Tile6.jpg",
-        "title": "Crypto Gene",
+        "title": "Coming Soon",
         "description": [
           { "icon": "iconWebApp", "text": "Web App" },
           { "icon": "iconMobileApp", "text": "Mobile App" },
           { "icon": "iconDashboard", "text": "Dashboard" }
         ],
-        "githubLink": "https://github.com/project-c",
-        "previewLink": "https://preview-link-c.com"
+        "githubLink": "/",
+        "previewLink": "/"
       }
     ]
   },
