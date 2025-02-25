@@ -76,11 +76,12 @@
       {
         "id": 5,
         "imageSrc": "Tile5.jpg",
-        "title": "Breezle",
+        "title": "News Dashboard",
         "description": [
-          { "icon": "iconWebsite", "text": "Website" },
+         
           { "icon": "iconWebApp", "text": "Web App" },
-          { "icon": "iconMobileApp", "text": "Mobile App" }
+          { "icon": "iconReact", "text": "React" },
+          { "icon": "iconTailwindCss", "text": "Tailwind CSS" }
         ],
         "githubLink": "https://github.com/Kudzai21/news-dashboard.git",
         "previewLink": "https://news-dashboard-flax.vercel.app/"
@@ -91,8 +92,8 @@
         "title": "Coming Soon",
         "description": [
           { "icon": "iconWebApp", "text": "Web App" },
-          { "icon": "iconMobileApp", "text": "Mobile App" },
-          { "icon": "iconDashboard", "text": "Dashboard" }
+          { "icon": "iconDashboard", "text": "Dashboard" },
+          { "icon": "iconWebsite", "text": "Website" }
         ],
         "githubLink": "/",
         "previewLink": "/"
