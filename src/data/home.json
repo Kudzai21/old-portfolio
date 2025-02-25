@@ -67,6 +67,7 @@
         "imageSrc": "Tile4.jpg",
         "title": "Local Connect (SAAS)",
         "description": [
+          { "icon": "iconWebsite", "text": "Website" },
           { "icon": "iconReact", "text": "React" },
           { "icon": "iconTailwindCss", "text": "Tailwind CSS" }
         ],
@@ -79,7 +80,7 @@
         "title": "News Dashboard",
         "description": [
          
-          { "icon": "iconWebApp", "text": "Web App" },
+          { "icon": "iconDashboard", "text": "Dashboard" },
           { "icon": "iconReact", "text": "React" },
           { "icon": "iconTailwindCss", "text": "Tailwind CSS" }
         ],
