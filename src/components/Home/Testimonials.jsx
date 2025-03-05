@@ -7,7 +7,7 @@ const Testimonials = () => {
   const carouselRef = useRef(null);
 
   const testimonialsData = data.testimonials || [];
-  const cardWidth = 400; // Increased width of a single card
+  const cardWidth = 400;
   const duplicatedData = [...testimonialsData, ...testimonialsData]; // Duplicate the testimonials
 
   useEffect(() => {

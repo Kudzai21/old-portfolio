@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaRegEnvelope } from "react-icons/fa6";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion";
 import contactData from "../../data/home.json";
 
 const Contact = () => {

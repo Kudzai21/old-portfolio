@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import homeData from "../../data/home.json";
 
-// Import images statically
 import Carousel1 from "../../assets/carousel/Carousel1.jpg";
 import Carousel2 from "../../assets/carousel/Carousel2.jpg";
 import Carousel3 from "../../assets/carousel/Carousel3.jpg";

@@ -5,7 +5,6 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import caseStudiesData from "../../data/home.json";
 
-// Import images statically
 import Tile1 from "../../assets/Tile1.jpg";
 import Tile2 from "../../assets/Tile2.jpg";
 import Tile3 from "../../assets/Tile3.jpg";
