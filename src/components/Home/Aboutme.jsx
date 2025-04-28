@@ -5,20 +5,20 @@ import { FaRegUserCircle } from "react-icons/fa";
 import aboutMeData from "../../data/home.json";
 import { motion } from "framer-motion";
 
-import FigmaLogo from "../../assets/Figma.svg";
-import FramerLogo from "../../assets/Framer.svg";
-import MiroLogo from "../../assets/Miro.svg";
-import LottieLogo from "../../assets/Lottie.svg";
-import BalsamiqLogo from "../../assets/Balsamiq.svg";
-import MazeLogo from "../../assets/Maze.svg";
-import StorybookLogo from "../../assets/Storybook.svg";
-import ReactLogo from "../../assets/React.svg";
-import HtmlLogo from "../../assets/Html.svg";
-import CssLogo from "../../assets/Css.svg";
-import JavascriptLogo from "../../assets/Javascript.svg";
-import TailwindLogo from "../../assets/Tailwind.svg";
-import MotionLogo from "../../assets/Motion.svg";
-import GithubLogo from "../../assets/Github.svg";
+import FigmaLogo from "../../assets/logos/Figma.svg";
+import FramerLogo from "../../assets/logos/Framer.svg";
+import MiroLogo from "../../assets/logos/Miro.svg";
+import LottieLogo from "../../assets/logos/Lottie.svg";
+import BalsamiqLogo from "../../assets/logos/Balsamiq.svg";
+import MazeLogo from "../../assets/logos/Maze.svg";
+import StorybookLogo from "../../assets/logos/Storybook.svg";
+import ReactLogo from "../../assets/logos/React.svg";
+import HtmlLogo from "../../assets/logos/Html.svg";
+import CssLogo from "../../assets/logos/Css.svg";
+import JavascriptLogo from "../../assets/logos/Javascript.svg";
+import TailwindLogo from "../../assets/logos/Tailwind.svg";
+import MotionLogo from "../../assets/logos/Motion.svg";
+import GithubLogo from "../../assets/logos/Github.svg";
 
 // Icon mapping
 const ICONS = {

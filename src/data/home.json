@@ -21,6 +21,7 @@
   "carouselImages": [
     { "src": "Carousel1.jpg", "alt": "Placeholder image 1" },
     { "src": "Carousel2.jpg", "alt": "Placeholder image 2" },
+    { "src": "Carousel9.jpg", "alt": "Placeholder image 9" },
     { "src": "Carousel3.jpg", "alt": "Placeholder image 3" },
     { "src": "Carousel7.jpg", "alt": "Placeholder image 7" },
     { "src": "Carousel5.jpg", "alt": "Placeholder image 5" },
@@ -108,27 +109,27 @@
       "title": "Design",
       "description": "I design intuitive, user-friendly interfaces that balance aesthetics and functionality. With expertise in UX/UI, I focus on clean visuals, responsive layouts, and seamless experiences for web and mobile. My approach is user-centered, ensuring each design is impactful and effective.",
       "skills": [
-        { "name": "Figma", "logo": "../../assets/Figma.svg" },
-        { "name": "Framer", "logo": "../../assets/Framer.svg" },
-        { "name": "Miro", "logo": "../../assets/Miro.svg" },
-        { "name": "Lottie", "logo": "../../assets/Lottie.svg" },
-        { "name": "Balsamiq", "logo": "../../assets/Balsamiq.svg" },
-        { "name": "Maze", "logo": "../../assets/Maze.svg" },
-        { "name": "Storybook", "logo": "../../assets/Storybook.svg" }
+        { "name": "Figma", "logo": "../../assets/logos/Figma.svg" },
+        { "name": "Framer", "logo": "../../assets/logos/Framer.svg" },
+        { "name": "Miro", "logo": "../../assets/logos/Miro.svg" },
+        { "name": "Lottie", "logo": "../../assets/logos/Lottie.svg" },
+        { "name": "Balsamiq", "logo": "../../assets/logos/Balsamiq.svg" },
+        { "name": "Maze", "logo": "../../assets/logos/Maze.svg" },
+        { "name": "Storybook", "logo": "../../assets/logos/Storybook.svg" }
       ]
     },
     {
       "icon": "FaCode",
       "title": "Code",
-      "description": "I’m skilled in front-end development, turning design concepts into responsive, interactive web experiences. With expertise in HTML, CSS, JavaScript, and React, I create clean, scalable code that ensures seamless user interactions and smooth performance across all devices.",
+      "description": "I’m skilled in front-end development, turning design concepts into responsive, interactive web experiences. With expertise in HTML, CSS, JavaScript, TypeScript and React, I create clean, scalable code that ensures seamless user interactions and smooth performance across all devices.",
       "skills": [
-        { "name": "HTML", "logo": "../../assets/Html.svg" },
-        { "name": "CSS", "logo": "../../assets/Css.svg" },
-        { "name": "JavaScript", "logo": "../../assets/Javascript.svg" },
-        { "name": "React", "logo": "../../assets/React.svg" },
-        { "name": "Tailwind CSS", "logo": "../../assets/Tailwind.svg" },
-        { "name": "Motion", "logo": "../../assets/Motion.svg" },
-        { "name": "Github", "logo": "../../assets/Github.svg" }
+        { "name": "HTML", "logo": "../../assets/logos/Html.svg" },
+        { "name": "CSS", "logo": "../../assets/logos/Css.svg" },
+        { "name": "JavaScript", "logo": "../../assets/logos/Javascript.svg" },
+        { "name": "React", "logo": "../../assets/logos/React.svg" },
+        { "name": "Tailwind CSS", "logo": "../../assets/logos/Tailwind.svg" },
+        { "name": "Motion", "logo": "../../assets/logos/Motion.svg" },
+        { "name": "Github", "logo": "../../assets/logos/Github.svg" }
       ]
     }
   ],

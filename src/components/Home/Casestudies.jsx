@@ -5,12 +5,12 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import caseStudiesData from "../../data/home.json";
 
-import Tile1 from "../../assets/Tile1.jpg";
-import Tile2 from "../../assets/Tile2.jpg";
-import Tile3 from "../../assets/Tile3.jpg";
-import Tile4 from "../../assets/Tile4.jpg";
-import Tile5 from "../../assets/Tile5.jpg";
-import Tile6 from "../../assets/Tile6.jpg";
+import Tile1 from "../../assets/tiles/Tile1.jpg";
+import Tile2 from "../../assets/tiles/Tile2.jpg";
+import Tile3 from "../../assets/tiles/Tile3.jpg";
+import Tile4 from "../../assets/tiles/Tile4.jpg";
+import Tile5 from "../../assets/tiles/Tile5.jpg";
+import Tile6 from "../../assets/tiles/Tile6.jpg";
 
 const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub, navigateTo, previewLink, index }) => {
   const navigate = useNavigate();
