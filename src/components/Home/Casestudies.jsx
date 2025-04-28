@@ -58,7 +58,7 @@ const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub
             <h2 className="text-xl font-semibold mb-2">{title}</h2>
             <div className="mb-4 flex gap-2 flex-wrap text-sm text-customSecondary py-2">
               {description.map((tag, index) => (
-                <div key={index} className="flex items-center space-x-1 mx-1 p-1 text-gray-500 bg-gray-100 border border-gray-500 rounded-md">
+                <div key={index} className="flex items-center space-x-1 mx-1 p-1 text-gray-400 bg-gray-100 border border-gray-400 rounded-md">
                   {tag.icon === "iconMobileApp" && <FaMobileAlt />}
                   {tag.icon === "iconWebsite" && <FaDesktop />}
                   {tag.icon === "iconWebApp" && <FaTabletAlt />}
