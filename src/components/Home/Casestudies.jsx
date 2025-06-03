@@ -90,7 +90,7 @@ const Card = ({ imageSrc, title, description, buttonText, githubLink, showGithub
                   whileHover={{ scale: 1.05, backgroundColor: "#f3f3f3" }}
                 >
                   <div className="bg-gradient-to-b from-stone-200/30 to-white/70 rounded-[8px] px-3 py-2">
-                    <div className="flex font-medium justify-center items-center px-2 text-customPrimary group-hover:text-customSecondary transition-colors duration-300">
+                    <div className="f lex font-medium justify-center items-center px-2 text-customPrimary group-hover:text-customSecondary transition-colors duration-300">
                       Preview
                     </div>
                   </div>

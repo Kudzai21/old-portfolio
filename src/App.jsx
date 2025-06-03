@@ -5,12 +5,15 @@ import SocialLinks from './components/shared/Sociallinks';
 import Casestudy from './components/Pages/Casestudy';
 import Casestudy2 from './components/Pages/Casestudy2';
 import Casestudy3 from './components/Pages/Casestudy3';
+import { SpeedInsights } from '@vercel/speed-insights/react'
+
 const App = () => {
   return (
     <Router>
       <div>
         <SocialLinks />
-        <Routes>
+        <SpeedInsights />
+        <Routes>;
           <Route path="/" element={<Home />} />
           <Route path="/casestudy" element={<Casestudy />} />
           <Route path="/casestudy2" element={<Casestudy2 />} />
