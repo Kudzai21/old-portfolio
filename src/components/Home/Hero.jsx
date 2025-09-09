@@ -99,11 +99,15 @@ const Hero = () => {
                                     </React.Fragment>
                                 ))}
                             </h1>
-                            <span className="text-customPrimary font-normal">Designer who codes</span>. 
-                            <span className="text-customSecondary"> I craft</span> 
-                            <span className="text-customPrimary font-normal"> user-friendly</span> 
-                            <span className="text-customSecondary"> designs and responsive front-end solutions, blending </span> 
-                            <span className="text-customPrimary font-normal">creativity with functionality</span>.
+                            <span className="text-customPrimary font-normal">Designer who codes and AI enthusiast</span>. 
+                            <span className="text-customSecondary"> I craft user-friendly </span> 
+                            <span className="text-customPrimary font-normal"> designs and responsive front-end solutions</span> 
+                            <span className="text-customSecondary"> , blending creativity with functionality, while actively</span> 
+                            <span className="text-customPrimary font-normal"> implementing AI </span>
+                            <span className="text-customSecondary"> to enhance workflows and </span>
+                            <span className="text-customPrimary font-normal"> design outcomes. </span>
+
+
                         </motion.h1>
 
                         {/* Skill animation with stagger */}
