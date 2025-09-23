@@ -83,17 +83,6 @@ const Hero = () => {
             <p className="mb-2 font-bold text-customSecondary">Duration</p>
             <p className="font-medium break-words">{hero.duration}</p>
           </motion.div>
-          <motion.div variants={childVariants}>
-            <p className="font-bold text-customSecondary">Platform URL</p>
-            <a
-              href={hero.platformURL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-blue-500 underline break-words"
-            >
-              {hero.platformURL}
-            </a>
-          </motion.div>
         </motion.div>
       </div>
     </section>
