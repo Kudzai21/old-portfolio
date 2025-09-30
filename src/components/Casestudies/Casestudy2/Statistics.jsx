@@ -42,7 +42,7 @@ const StatCard = ({ value, heading, label, suffix = "", index }) => {
         <div className="bg-gradient-to-b from-stone-200/30 to-white/70 p-6 flex flex-col items-center justify-center min-h-[180px]">
           <div className="text-4xl font-bold text-customPrimary tabular-nums tracking-tight">{display}{resolvedSuffix}</div>
           {heading && (
-            <div className="mt-1 text-sm font-semibold text-customPrimary text-center">{heading}</div>
+            <div className="mt-1 text-lg font-semibold text-customPrimary text-center">{heading}</div>
           )}
           <div className="mt-2 text-sm text-customSecondary text-center max-w-xs">{label}</div>
         </div>
