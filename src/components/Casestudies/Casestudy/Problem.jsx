@@ -23,18 +23,24 @@ const Problem = () => {
   return (
     <div className="flex flex-col items-center max-w-7xl mx-auto px-5">
       {/* Image Section */}
-      <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 pt-10 lg:pt-32">
+      <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 pt-10 lg:pt-32 w-full">
         {problem.images.map((image, index) => {
           // Map JSON image filename to imported image
           const imageSrc = imageMap[image.src] || image.src; // Fallback to the original src if no mapping is found
 
+          const heading = index === 0 ? "Before" : "After";
+
           return (
-            <img
-              key={index}
-              src={imageSrc}
-              alt={image.alt}
-              className="w-full sm:w-1/2"
-            />
+            <div key={index} className="w-full sm:w-1/2">
+              <div className="px-3">
+                <div className="lg:text-lg font-medium uppercase tracking-wider  mb-2">{heading}</div>
+              </div>
+              <img
+                src={imageSrc}
+                alt={image.alt}
+                className="w-full"
+              />
+            </div>
           );
         })}
       </div>
