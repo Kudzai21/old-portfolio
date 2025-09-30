@@ -40,6 +40,11 @@
           }
         ]
       },
+      "statistics": [
+        { "value": 42, "suffix": "%", "heading": "Increased User Engagement", "label": "Better navigation and progress tracking boosted survey participation after the redesign." },
+        { "value": 20, "suffix": "%", "heading": "Platform Growth", "label": "User base grew past 1M in six months, supported by a more user-friendly design." },
+        { "value": 33, "suffix": "%", "heading": "Improved Mobile Usability", "label": "Mobile-first design drove a sharp rise in survey completions on mobile devices." }
+      ],
       "problem": {
         "description": "Afrisight’s platform and dashboard were facing the following challenges:",
         "challenges": [
@@ -134,23 +139,23 @@
         "objectives": [
           {
             "semibold": "Increased User Engagement:",
-            "text": " Survey participation rates increased by 42% post-redesign, driven by better navigation and progress tracking."
+            "text": " Survey participation rates grew by 42% after the redesign. This was measured by comparing participation data before and after launch. Key drivers included improved navigation, a clear progress tracker, and a reduction in user drop-off points that were identified during usability testing."
           },
           {
             "semibold": "Higher User Retention:",
-            "text": " User retention grew by 24% due to an improved mobile experience and engaging interface."
+            "text": " Retention improved by 24% within three months post-launch. This was tracked using Afrisight’s internal analytics. The improved mobile experience and more engaging interface design were highlighted by users in follow-up surveys as main reasons for continued usage."
           },
           {
             "semibold": "Enhanced Corporate Satisfaction:",
-            "text": " Corporate clients reported a 52% reduction in time spent extracting insights from dashboards, thanks to simplified and clear data visualizations."
+            "text": " Corporate clients reported a 51% reduction in time needed to extract insights from dashboards. This was validated through client feedback sessions and usage analytics showing fewer repeated queries. The simplification of data visualizations and clearer hierarchy of information reduced friction in day-to-day tasks."
           },
           {
             "semibold": "Platform Growth:",
-            "text": " The user base expanded by 20% within six months of the redesign, surpassing the 1 million user mark, as the platform became more user-friendly and efficient."
+            "text": " The user base grew by 20% in six months, surpassing 1 million users. Growth was attributed partly to product-led improvements from the redesign, making the platform easier to use for both new and existing users. Afrisight’s marketing team reported that usability improvements directly supported acquisition campaigns."
           },
           {
             "semibold": "Improved Mobile Usability:",
-            "text": " Mobile users experienced a seamless and engaging interface, contributing to a 63% increase in survey completion via mobile devices."
+            "text": " Mobile survey completion rates increased by 33%, tracked through device-specific analytics. This outcome was linked to the mobile-first design approach, responsive layouts, and task-focused navigation introduced in the redesign."
           }
         ],
         "images": [
@@ -201,6 +206,11 @@
           }
         ]
       },
+      "statistics": [
+        { "value": 62, "suffix": "%", "heading": "Improved Usability", "label": "Redesigned navigation made it easier for users to access events and key info." },
+        { "value": 46,  "suffix": "%", "heading": "Higher Event Engagement", "label": "Event-centric design boosted page visits and discovery of new events." },
+        { "value": 74, "suffix": "%", "heading": "Stronger Brand Identity", "label": "Refreshed visuals increased user trust and loyalty toward Tango Africa." }
+      ],
       "problem": {
         "description": "The old Tango Africa website presented several challenges that hindered its ability to engage users effectively:",
         "challenges": [
@@ -301,23 +311,23 @@
         "objectives": [
           {
             "semibold": "Improved Usability:",
-            "text": " The redesigned navigation and streamlined layout improved user experience, with 62% of users reporting easier access to events and app-related information in post-launch surveys."
+            "text": " Post-launch surveys showed 62% of users found it easier to access events and information. This came from redesigning navigation and streamlining the layout to reduce friction."
           },
           {
             "semibold": "Higher Event Engagement:",
-            "text": " Event page visits increased by 46%, as the event-centric design encouraged users to discover and engage with more events."
+            "text": " Event page visits grew by 46%, tracked via analytics. The event-focused layout encouraged discovery and deeper engagement with more events."
           },
           {
             "semibold": "Enhanced Mobile Accessibility:",
-            "text": " With a fully responsive design, the website now delivers a seamless experience across devices, particularly for mobile users."
+            "text": " With a fully responsive redesign, users experienced seamless access across devices. Analytics confirmed stronger mobile usage, validating the mobile-first approach."
           },
           {
             "semibold": "Increased App Downloads:",
-            "text": " App downloads surged by 8% after launch, driven by prominent CTAs and effective app promotion on the website."
+            "text": " App downloads rose by 8% after launch, supported by strategically placed CTAs and app promotion integrated throughout the website."
           },
           {
             "semibold": "Stronger Brand Identity:",
-            "text": " User feedback highlighted a 74% increase in brand trust and loyalty, as the refreshed design resonated with Tango Africa’s mission and vibrant identity."
+            "text": " Follow-up user feedback revealed a 74% increase in trust and loyalty. The refreshed visuals and content strategy more closely aligned with Tango Africa’s mission and vibrant cultural identity."
           }
         ],
         "images": [
