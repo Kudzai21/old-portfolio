@@ -19,17 +19,17 @@
     ]
   },
   "carouselImages": [
-    { "src": "Carousel1.jpg", "alt": "Placeholder image 1" },
-    { "src": "Carousel2.jpg", "alt": "Placeholder image 2" },
-    { "src": "Carousel11.jpg", "alt": "Placeholder image 11" },
-    { "src": "Carousel9.jpg", "alt": "Placeholder image 9" },
-    { "src": "Carousel3.jpg", "alt": "Placeholder image 3" },
-    { "src": "Carousel7.jpg", "alt": "Placeholder image 7" },
-    { "src": "Carousel5.jpg", "alt": "Placeholder image 5" },
-    { "src": "Carousel4.jpg", "alt": "Placeholder image 4" },
-    { "src": "Carousel10.jpg", "alt": "Placeholder image 10" },
-    { "src": "Carousel8.jpg", "alt": "Placeholder image 8" },
-    { "src": "Carousel6.jpg", "alt": "Placeholder image 6" }
+    { "src": "Carousel1.jpg", "alt": "Placeholder image 1", "description": "Description for image 1" },
+    { "src": "Carousel2.jpg", "alt": "Placeholder image 2", "description": "Description for image 2" },
+    { "src": "Carousel11.jpg", "alt": "Placeholder image 11", "description": "Description for image 11" },
+    { "src": "Carousel9.jpg", "alt": "Placeholder image 9", "description": "Description for image 9" },
+    { "src": "Carousel3.jpg", "alt": "Placeholder image 3", "description": "Description for image 3" },
+    { "src": "Carousel7.jpg", "alt": "Placeholder image 7", "description": "Description for image 7" },
+    { "src": "Carousel5.jpg", "alt": "Placeholder image 5", "description": "MSC Website Redesign – I crafted the end-to-end experience for the MSC website, turning research insights and competitive analysis into an intuitive, visually engaging interface. From mapping the user journey to testing prototypes with real users, every step focused on creating a seamless digital experience." },
+    { "src": "Carousel4.jpg", "alt": "Placeholder image 4", "description": "Description for image 4" },
+    { "src": "Carousel10.jpg", "alt": "Placeholder image 10", "description": "Description for image 10" },
+    { "src": "Carousel8.jpg", "alt": "Placeholder image 8", "description": "Description for image 8" },
+    { "src": "Carousel6.jpg", "alt": "Placeholder image 6", "description": "Description for image 6" }
   ],
   "caseStudiesData": {
     "design": [

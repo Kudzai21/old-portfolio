@@ -6,7 +6,7 @@ const BackButton = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
-    navigate(-1); // Navigate to the previous page
+    navigate('/'); // Always navigate to home page
   };
 
   return (

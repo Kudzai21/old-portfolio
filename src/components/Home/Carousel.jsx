@@ -38,6 +38,7 @@ const Carousel = ({ speed = 20 }) => {
   const images = homeData.carouselImages.map((image) => ({
     src: imageMap[image.src], // Map JSON filenames to imported images
     alt: image.alt,
+    description: image.description || image.alt,
   }));
 
   useEffect(() => {
@@ -62,21 +63,41 @@ const Carousel = ({ speed = 20 }) => {
       >
         {/* Render the images */}
         {images.map((image, index) => (
-          <img
+          <div
             key={index}
-            src={image.src}
-            alt={image.alt}
-            className="w-[600px] h-[600px] object-cover flex-shrink-0 mx-1"
-          />
+            className="relative w-[600px] h-[600px] flex-shrink-0 mx-1 group"
+            tabIndex={0}
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="w-full h-full object-cover"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-200 ease-out">
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white text-sm md:text-base">
+                {image.description}
+              </div>
+            </div>
+          </div>
         ))}
         {/* Render duplicate images for seamless scrolling */}
         {images.map((image, index) => ( 
-          <img
+          <div
             key={`duplicate-${index}`}
-            src={image.src}
-            alt={`Duplicate ${image.alt}`}
-            className="w-[600px] h-[600px] object-cover flex-shrink-0 mx-1"
-          />
+            className="relative w-[600px] h-[600px] flex-shrink-0 mx-1 group"
+            tabIndex={0}
+          >
+            <img
+              src={image.src}
+              alt={`Duplicate ${image.alt}`}
+              className="w-full h-full object-cover"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-200 ease-out">
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-white text-sm md:text-base">
+                {image.description}
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </div>
