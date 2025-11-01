@@ -12,6 +12,7 @@ import Carousel8 from "../../assets/carousel/Carousel8.jpg";
 import Carousel9 from "../../assets/carousel/Carousel9.jpg";
 import Carousel10 from "../../assets/carousel/Carousel10.jpg";
 import Carousel11 from "../../assets/carousel/Carousel11.jpg";
+import Carousel12 from "../../assets/carousel/Carousel12.jpg";
 
 
 
@@ -32,6 +33,7 @@ const Carousel = ({ speed = 20 }) => {
     "Carousel9.jpg": Carousel9,
     "Carousel10.jpg": Carousel10,
     "Carousel11.jpg": Carousel11,
+    "Carousel12.jpg": Carousel12,
 
   };
 
