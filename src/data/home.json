@@ -101,7 +101,7 @@
           { "icon": "iconWebsite", "text": "Website" }
         ],
         "githubLink": "/",
-        "previewLink": "/"
+        "previewLink": "https://masc-one.vercel.app/"
       }
     ]
   },
