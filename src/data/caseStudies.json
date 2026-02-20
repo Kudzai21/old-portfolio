@@ -35,7 +35,7 @@
         ],
         "images": [
           {
-            "src": "home.jpg",
+            "src": "map.png",
             "alt": "Project Goals Image"
           }
         ]
@@ -160,7 +160,7 @@
         ],
         "images": [
           {
-            "src": "outcome.jpg",
+            "src": "home.jpg",
             "alt": "Outcome Image"
           }
         ]

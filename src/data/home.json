@@ -2,7 +2,7 @@
   "hero": {
     "profileImage": "../../assets/Kudzai.jpg",
     "profileAlt": "Portrait of a person",
-    "name": "Oswell Kudzai Mapuranga",
+    "name": "Kudzai Oswell Mapuranga",
     "description": "Designer who codes and AI enthusiast. I craft user-friendly designs and responsive front-end solutions, blending creativity with functionality, while actively implementing AI to enhance workflows and design outcomes.",
     "skills": [
       { "name": "Figma", "color": "#FF6F61" },
